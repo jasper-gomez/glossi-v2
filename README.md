@@ -1,15 +1,21 @@
 # 📈Glossi
 An upgraded version of Glossi utilizing System Dynamics (SD) simulation.
+
 ---
+
 # 💡Objective
 Glossi 2.0 aims to create a digital simulation of the hair data I gathered during Glossi 1.0. Through an SD simulation, this models the dynamics of hair dryness.
+
 ---
+
 # ⚙️Methodology
 1. **Data Gathering**: Data used is from Glossi 1.0.
 2. **Data Preprocesing**: The data has undergone numerical encoding using `LabelEncoder` and feature selection using [`FeSeCo`]()
 3. **Model Development**: Developed a simple Linear Regression (LR) model.
 4. **Coefficient Extraction**: Using the LR model, the coefficients and intercept have been identified.
+
 ---
+
 # 🔍Findings
 
 #### **Target Variable**: min_dryness (minimum dryness)
