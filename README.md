@@ -16,9 +16,20 @@ Glossi 2.0 aims to create a digital simulation of the hair data I gathered durin
 
 ---
 
+## 📝Evaluation Results
+- **R2 Score**: 0.49389830590874906 (Good enough for human factors)
+- **MSE**: 0.502868000847341
+- **MAE**: 0.5705126874430705
+- **RMSE**: 0.7091318642166216
+- **Explained Variance Score**: 0.4939475909608376
+
+---
+
 ## 🔍Findings
 
 #### **Target Variable**: min_dryness (minimum dryness)
+
+#### **Intercept**: 4.20783117458634
 
 **Coefficients**
 - `shampoo_used_today`: 0.53021863
@@ -29,5 +40,3 @@ Glossi 2.0 aims to create a digital simulation of the hair data I gathered durin
 - `bath_intensity`: - 0.09956396
 - `wind_exposure`: 0.10925777
 
-**Intercept**
-- 4.20783117458634
