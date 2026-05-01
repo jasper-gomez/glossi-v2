@@ -220,3 +220,9 @@ __marimo__/
 
 # datasets
 *.csv
+
+# Vensim
+*.vdf
+*.vdfx
+*.mdl
+*.2mdl
