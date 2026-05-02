@@ -1,10 +1,12 @@
-## 📈Glossi
-An upgraded version of Glossi utilizing System Dynamics (SD) simulation.
+## 📈Glossi 2.0
+An upgraded version of Glossi utilizing an interdisciplinary analytical approach.
+
+##### [View Interactive Simulation](https://insightmaker.com/insight/1SV8tCmE31FiyYMc5VyI0s)
 
 ---
 
 ## 💡Objective
-Glossi 2.0 aims to create a digital simulation of the hair data I gathered during Glossi 1.0. Through an SD simulation, this models the dynamics of hair dryness.
+Glossi 2.0 aims to create a digital simulation of the hair data I gathered during Glossi 1.0. Through an interdisciplinary analytical pipeline (ML + SD-MC), this models the dynamics of hair dryness.
 
 ---
 
@@ -16,7 +18,7 @@ Glossi 2.0 aims to create a digital simulation of the hair data I gathered durin
 
 ---
 
-## 📝Evaluation Results
+## 📝Evaluation Results (Linear Regression)
 - **R2 Score**: 0.40240082566198 (Good enough for human factors)
 - **MSE**: 0.7029867489580465
 - **MAE**: 0.5328669897213666
@@ -25,7 +27,7 @@ Glossi 2.0 aims to create a digital simulation of the hair data I gathered durin
 
 ---
 
-## 🔍Findings
+## 🔍Findings (Linear Regression)
 
 #### **Target Variable**: average_dryness
 
@@ -39,4 +41,3 @@ Glossi 2.0 aims to create a digital simulation of the hair data I gathered durin
 - `humidity`: - 0.01720086
 - `bath_intensity`: - 0.01400846
 - `wind_exposure`: 0.06599629
-
