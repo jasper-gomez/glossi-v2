@@ -6,7 +6,7 @@ An upgraded version of Glossi utilizing an interdisciplinary analytical approach
 ---
 
 ## 💡Objective
-Glossi 2.0 aims to create a digital simulation of the hair data I gathered during Glossi 1.0. Through an interdisciplinary analytical pipeline (ML + SD-MC), this models the dynamics of hair dryness.
+Glossi 2.0 aims to create a digital simulation of the hair data I gathered during Glossi 1.0. Through an interdisciplinary analytical pipeline (Machine Learning + Stochastic System Dynamics + HPC), this models the dynamics of hair dryness.
 
 ---
 
@@ -14,7 +14,9 @@ Glossi 2.0 aims to create a digital simulation of the hair data I gathered durin
 1. **Data Gathering**: Data used is from Glossi 1.0.
 2. **Data Preprocesing**: The data has undergone numerical encoding using `LabelEncoder`, feature selection using [`FeSeCo`](https://github.com/jasper-gomez/feature-selection-companion), and feature engineering.
 3. **Model Development**: Developed a simple Linear Regression (LR) model.
-4. **Coefficient Extraction**: Using the LR model, the coefficients and intercept have been identified.
+4. **Coefficient Extraction**: Using the LR model, the coefficients and intercept have been used as empirical ground truth for system parameters.
+5. **Simulation Modeling**: Created a Stochastic SD model.
+6. **Probabilistic Analysis**: Leveraged parallel programming to execute high-throughput Monte Carlo sampling.
 
 ---
 
