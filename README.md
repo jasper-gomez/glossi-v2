@@ -1,26 +1,26 @@
-## 📈Glossi 2.0
+### 📈Glossi 2.0
 An upgraded version of Glossi utilizing an interdisciplinary analytical approach.
 
 ##### [View Interactive Simulation](https://insightmaker.com/insight/1SV8tCmE31FiyYMc5VyI0s)
 
 ---
 
-## 💡Objective
+### 💡Objective
 Glossi 2.0 aims to create a digital simulation of the hair data I gathered during Glossi 1.0. Through an interdisciplinary analytical pipeline (Machine Learning + Stochastic System Dynamics + HPC), this models the dynamics of hair dryness.
 
 ---
 
-## ⚙️Methodology
+### ⚙️Methodology
 1. **Data Gathering**: Data used is from Glossi 1.0.
 2. **Data Preprocesing**: The data has undergone numerical encoding using `LabelEncoder`, feature selection using [`FeSeCo`](https://github.com/jasper-gomez/feature-selection-companion), and feature engineering.
 3. **Model Development**: Developed a simple Linear Regression (LR) model.
 4. **Coefficient Extraction**: Using the LR model, the coefficients and intercept have been used as empirical ground truth for system parameters.
-5. **Simulation Modeling**: Created a Stochastic SD model.
+5. **Simulation Modeling**: Created a Stochastic SD model in Vensim.
 6. **Probabilistic Analysis**: Leveraged parallel programming to execute high-throughput Monte Carlo sampling.
 
 ---
 
-## 📝Evaluation Results (Linear Regression)
+### 📝Evaluation Results (Linear Regression)
 - **R2 Score**: 0.40240082566198 (Good enough for human factors)
 - **MSE**: 0.7029867489580465
 - **MAE**: 0.5328669897213666
@@ -29,7 +29,7 @@ Glossi 2.0 aims to create a digital simulation of the hair data I gathered durin
 
 ---
 
-## 🔍Findings (Linear Regression)
+### 🔍Findings (Linear Regression)
 
 #### **Target Variable**: average_dryness
 

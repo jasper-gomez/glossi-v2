@@ -105,8 +105,8 @@ def time_step():
     depends_on={
         "model_seed": 1,
         "time": 1,
-        "discomfort_level_oily": 1,
         "oiliness_sensitivity": 1,
+        "discomfort_level_oily": 1,
     },
 )
 def probability_to_wash():
@@ -135,8 +135,8 @@ def model_seed():
     depends_on={
         "model_seed": 1,
         "time": 1,
-        "discomfort_level_dry": 1,
         "dryness_sensitivity": 1,
+        "discomfort_level_dry": 1,
     },
 )
 def probability_to_treat():
@@ -215,8 +215,8 @@ def discomfort_level_oily():
     depends_on={
         "time": 1,
         "probability_to_treat": 1,
-        "atmospheric_factors_2": 2,
         "moisturizing": 1,
+        "atmospheric_factors_2": 2,
     },
 )
 def moisture_rate():
@@ -254,8 +254,8 @@ def oiliness_sensitivity():
     depends_on={
         "time": 1,
         "probability_to_wash": 1,
-        "atmospheric_factors_1": 2,
         "hair_cleaning": 1,
+        "atmospheric_factors_1": 2,
     },
 )
 def dryness_rate():
